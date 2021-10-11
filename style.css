@@ -1,0 +1,348 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	/*font-family: 'Poppins', sans-serif;*/
+	scroll-behavior: smooth;
+}
+
+#scrollnav{
+	/*opacity: 0.7;*/
+	height: auto;
+	color: gray;
+	background-color: white;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	/*transition: 0.2s;*/
+}
+
+#scrollnav span{
+	letter-spacing: 2px;
+}
+
+#scrollnav .navbar-nav a{
+	margin-right: 20px;
+	color: black;
+}
+
+#scrollnav .navbar-nav a:hover{
+	color: rgb(46, 185, 209);
+}
+
+.landingPage{
+	background: url(images/landing.png);
+	background-attachment: fixed;
+	background-position: top;
+	background-size: cover;
+	height: 500px;
+	object-fit: cover;
+	width: 100%;
+}
+.desAgency{
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+	/*box-sizing: border-box;*/
+
+}
+.label1{
+	background-color: rgb(46, 185, 209);
+	width: 250px;
+	color: white;
+	font-size: 13.5px;
+	letter-spacing: 1.5px;
+	/*font-weight: bold;*/
+	/*width: 100%;*/
+	margin: 0px;
+	padding: 8px 0px 8px 0px;
+	/*height: 100%;*/
+}
+
+.label2{
+	background-color: rgb(33, 33, 33, 0.5);
+	color: white;
+	font-size: 30px;
+	margin: 0px;
+	width: 65%;	
+	/*padding: 0px 65px 0px 65px;*/
+	letter-spacing: -1.5px;
+}
+
+.label1Div, .label2Div{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.inLanding{
+	height: 55%;
+}
+
+.scroll{
+	height: 45%;
+}
+
+.scroll img{
+	opacity: .5;
+	margin-bottom: 10px;
+	
+}
+
+.scroll p{
+	opacity: .7;
+	color: gray;
+	margin-bottom: 30px;
+	letter-spacing: .5px;
+}
+
+.servicesSection{
+	height: 650px;
+}
+
+.services{
+	background: url(images/background.png);
+	/*background-attachment: fixed;*/
+	background-position: top;
+	background-size: cover;
+	height: 100%;
+	/*opacity: .3;*/
+	object-fit: contain;
+	width: 100%;
+	/*background-blend-mode: overlay;*/
+}
+
+.servicesText .servicesTitle{
+	/*height: 100%;*/
+	padding-top: 4%;
+	color: gray;
+	opacity: 1.0;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	z-index: 2;
+}
+
+.servicesText .servicesDesc{
+	width: 30%;
+	margin: 0px;
+	color: gray;
+}
+
+.serviceItems{
+	/*height: 300px;*/
+	padding-top: 4.5%;
+}
+
+.serviceItems .item img{
+	height: 60px;
+	width: 60px;
+	text-align: center;
+}
+
+.serviceItems .item{
+	width: 30%;
+	padding: 3%;
+	text-align: center;
+	height: auto;
+}
+
+.serviceItems .item h5{
+	margin-top: 10%;
+	letter-spacing: 2px;
+}
+.serviceItems .item p{
+	color: gray;
+	font-size: 14px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.gallery{
+	height: auto;
+	background-color: rgb(45, 50, 52);
+}
+
+.gallery .galleryTitle{
+	color: white;
+}
+
+.galleryTitle h1{
+	font-weight: lighter;
+	font-size: 50px;
+	padding-top: 5%;
+	letter-spacing: 2.5px;
+}
+
+.galleryImages{
+	padding-top: 5%;
+
+	/*width: 80%;*/
+	/*text-align: center;*/
+}
+
+
+
+.galleryImages img{
+	object-fit: cover;
+	object-position: center top;
+	margin: 0px;
+	padding: 0px;
+	/*background-position: top;*/
+	/*object-fit: none;*/
+}
+
+.pic1{
+	height: 300px;
+}
+
+.pic2{
+	height: 270px;
+}
+
+.pic3{
+	height: 150px;
+}
+
+.pic4{
+	height: 330px;
+}
+
+.pic5{
+	height: 350px;
+}
+
+.pic6{
+	height: 200px;
+}
+
+.pic7{
+	height: 180px;
+}
+
+.pic8{
+	height: 200px;
+}
+
+.pic9{
+	height: 230px;
+}
+
+.pic10{
+	height: 450px;
+}
+
+.pic11{
+	height: 250px;
+}
+
+.pic12{
+	height: 170px;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12{
+	width: 100%;
+	margin: 0px;
+}
+
+.galleryImages img:hover{
+	opacity: 0.3;
+}
+
+.contact{
+	height: auto;
+}
+
+.contactTitle{
+	padding-top: 5%;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 50px;
+}
+
+.contactDesc{
+	width: 30%;
+	text-align: center;
+}
+
+.map{
+	padding-top: 5%;
+	width: 100%;
+}
+
+.firstInput{
+	width: 48%;
+	height: 50px;
+}
+
+.message{
+	width: 100%;
+	height: 250px;
+}
+
+.contactEmail button{
+	height: 50px;
+	width: 150px;
+	letter-spacing: 2px;
+}
+
+.address{
+	color: gray;
+}
+
+.address .addheading{
+	font-weight: bold;
+}
+.address p img{
+	width: 25px;
+	height: 25px;
+	margin-right: 7px;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	height: 150px;
+	padding-top: 2%;
+	padding-left: 10%;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+.modal .modal-content{
+	height: auto;
+}
+
+@media (min-width: 990px){
+
+	#scrollnav{
+		/*opacity: 0.7;*/
+		height: 115px;
+		color: black;
+		background-color: white;
+		/*transition: 0.2s;*/
+	}
+
+	#scrollnav .contactlink{
+		padding-right: 100px;
+		/*margin-top: 10%;*/
+	}
+
+	.galleryImages{
+		width: 80%;
+		padding: 5%;
+	}
+
+}
+
+@media (min-width: 768px){
+	.label2{
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 576px){
+	.label2{
+		font-size: 50px;
+	}
+}
